@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Solway&display=swap);
+
+.header{
+  position: relative;
+    grid-column: 2;
+    grid-row: 1;
+}
+.searchbar{
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.logo {
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+    top: 200px;
+}
+
+.bar {
+  background-image: url("https://ak4.picdn.net/shutterstock/videos/1008656134/thumb/5.jpg"), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAhFBMVEX////q6uoAAADp6eno6Oj29vb7+/vx8fH8/Pzz8/Pu7u74+Ph+fn7BwcGlpaXU1NS3t7eZmZlUVFTg4OArKytCQkLHx8dpaWk7OzsqKiowMDCsrKyIiIja2tq0tLS7u7uQkJARERFMTEx1dXUfHx9dXV0YGBiVlZWLi4tlZWV6eno4ODjzvqsMAAAKmUlEQVR4nO2d7WLiLBCF82G+QK1Wa9/Wqlvbbne3939/rxCScMaEJK7a4DK/tntKmicQwjAMeMzXLPTA/FDXYtCwHActAS0CLQItQ03/ez4DLR41aymUIxDe7RMixZkIoRwSZqA5QkfoCB2hI3SEjtBiQtBuklC/GyNhcgXCcBRWNiKEoKVICBol1DVCCBoSctAIhUHzdI1CENOfhX/E1Fxrphrt3C5DyqtrPmixQfOgtonmhf5ptcbCZi3Tr0kJQSOEuhTSNqtrlBAKUkJ4poTQUE/G3hPKmfoWSqhrtM0a6slch99JeFSHjtAROkJH6AgdoSP8BkLQLuAREkKjN3Ey4aizN4G+VHdvghAaPA0Ye47wTlPT2JNowOvHqW6ssxaBlhi0DApmoMGM/6HWdI3jjUK5FDUolx4I9SeFDwMG/rRGQaNttrlGI5OnAU+/uzeRmjwNa+Zp0mHNYtz+TJQjdISOcNCEtx/l9rIkYUXhWyPcbOeP+/8eHn9MV3E+tLkpwtVboNvjjLObIlwHxzbPGB2HWxq34N6qhk/YjCPhqXGL1Bi3iHVLGRhqCWhR2k1LvfixATAIPiIomME1Od4MaHGzRiEI70ivb1prhnaJURvoPZOfjYAHW2hXPfIm/EZtSLMYIxPfwe4qZ/L7ZzFOIfRbAA+I5XWtJOStgFpDtZLwoQPhczGQs5Fw2gEwCF4yawmzToBBsLGWsPlDiPbBLSVs70cLy/tT+whfOhO+ZXYSdgYMAjsJm8bbdTZj1yI0xi1gAN8et5j3IByLaXLTCinjLLc5bkG8Ca4bahFoGWjZscb/60H47h1fM4FrRgaN3ChqGJmhHjBoxAM2xdpEO4l7AAaBqrXmdhmf3C4v5uOzXoTytuyKW7C7XoR3bYTDm6dhfbrSIFg5QkfoCB2hI6whHN0p2yykjXYa0HoD2mLB7SM83IX6lVKrpvbnkdJuJ24hrWq3W1X6OpGZU+MW4GnUxC38RFlZ7qMk3KdKw3LcsJ4m7azRuAUdpCeaUW/CoOlSIjyNePE2Rltq7+H7C2pvd/IKhr9HPI2kWeNYjvCCZ9Un3+JY6zcu3bHjdW1wM6Za+6Z8i76EvnX5Fv0JbZuncYT2E1amQrOL1wqo7NGL6K2IIlpLWKyCSrYl4LbQBrbO+y8JmYkwtJmwGFSw55LwvSxdDByuNiN8RsLNz+fclk9LYU/QsyxBW75OLOxpbr8vHSjhGeMW/celR5nOzWPPPnELMkiPdEMt4s1aBprwE7KesxhcldOuCfdCvQnTjYJBbIK6VuhY9swRutvfowER0R42ea01t0tT3AI9YOofXi5ukeVWNb19yfd1qC9p+NTyr2Nx5UHGLZiYcWr8Ok5Kwq36jeNZDDFDtWmvw28j/HO4+1dC6JeE1ZhmWoxzKGEkvpof2XAJx4f7e6attGiJeuc6URq27gOhCKs+2kF42oywI3SEjtAR9iLcfM5zm+a21gc1+zmK05F9hCIyo9boFEWqnJLfxTKeq3wtzhm3KAjrM7shMpOLNN8ik4RJ6yx3n7gFjMN5BmbSshqNC8Kll3saPC4WWMmZiihKq2Vgv8pwSTGLoa4pl00/qpsy3EwPjfBCs+yRb5GnFDBB+MTzGo1Wyia73PR1bp9E2y1E+cRThNKM3sQ3+fhJTvg3Pr5GOMRZDEfoCB2hI3SEjtAR/jOES0W46UU4uRYhDtJ7roIK2S9xszz3JromruV25+dxCxFjHCvCM8UtTMPyrKfG5eDay7U+SUGHx6IcAfHvX3Hfe8kMGtkLCh8GajTfoqZG5epDtU8UfzUzoalak1m1c3ltskKqez7+RX18OW+/yN/K5M3MBPYhi0f+QvywZjVv3kBmMWRq+k7NedftFNFk65yQyVW2q+ESpvI1+lQ9a1smvm6+IpQvclZHMQxCzxPTLF+KkO87A37lpXkkirzzIRPKOuB5ZIntzFiazRRhIn54SYZMKKfTZirBPjbuiKFbQSHjbzM2ZEL5Iu7ViIPNOgKWS6R+i5+K3UAHSihipMFC/XfHN/GrKCyHQb8HTijH28UmCR27UzUgS/O3eFcfxx8MoSffvSLZoFNnMyvLyh/LbTyHSig7i3FRidGPVsCXsuin+HFeXvh8hF3HpR09DXnbi6KonOg32Z+yYO6MVCcpnCtuoQ/DyXKik6IYeY//UF63JWn9pXRuPBl9m/KGP4guA1n3lICI66UI78nnW1TlYrnMclppplDptjzEQg1jtWt2z6AhXi44GhfIt1ApzgvtTu8b+B5Y9QZJryJPeC7KDXAWQ/Uu8psYlL+QMT55r+F7nWiroBPpTT7q1xwuoZ9Jnuo7frg9PqH1eD8RmiJk0QNto0MmDFn+oX+oCAUDW5e5XU/jrSqu1uple9Kyh014+HLmncuXRijuMeEp22ygMxeEIUtywBnJ1RswIVfpoq9MJzwIoX+0NkHk0+aL3D8zq9Z5q12+dl7ryQFcLcp84VblrqUF4mNqJmSZmrD6wZlta/WL9bJrKEgIy+zntWivlhF6i+K7t+ZJtTciEO6KWYC7w3DUunwLT7nssgluYsYEg07olyPWe/+qu5n19yY8uauQJtas7P75Y8dSsQ20KreaV1lCa64Km/Itjgibx6WghTSXmyQuGPK1u2hpDHu2Pfz5nE6n8/Fe/89xlS6Bu01Fp+Zyo2b2D0/dR7h6utnI7CD+0evGVGvdz7e4Wr5FYQmfNs4qzrufYTmQfIs6QvFWLqZfR3TP81XMbmpfjNX6ZV/2LutJwkXvelOEwspwVMryvNibIyz3pFVTho7QETpCR+gIbSQ8ilvo2hnOCqwIw1ZC02kIRo0S6sNwun1rwrpp1CsgO0qVG9tWhKn6jQw2vTV5E8TtiZs1ugct2igcaYa15oNG8y10jZ5/WFhS+rxlrenFyEonbtBS0EjTM2kXPqWTHRPCG2TfLEZPQgvnaRyhI7SPsKYvvQ3CkGUxk1uYliszYvmhFKMRPSxnK2HEt9Wul2jL+UI7D9FaQnNawjiqZvwtJWw7ImFZ3pCVhGmH44J+Fqd2XZ/wHN5El7ySj8KXugyh6ew8btAiw7l6WSl4T+2AQbBSxRM4Aw9PtMDz8ciJFgBBztUzDsRDg6fBoByNRCnzJ+14B7svaq2zN0GzZEzexEV9/KRt3Z4y9fDsm8UIed1aqLpmaith55NY1tYSJtvZbLab6LYT/1Wa0kbWEvqwt4k07AXJ+M5CQr9mHK5rNzdf6ggdoSN0hOa4Rd/9S/+W0HiKs0mjhPB58tHT8FHDk7h10efNp3T7eII3nI/ngzeRRvAHE93vSTloDLQYbxS8kJjw4iD9BG+iRstAI7Vm8CZig2b0JoyexmVnE1va5Q3ELVoIrZyncYSO0BE6QkfoCB2hI/wWQl0bpYBICEFLdEcrjEDLQDMSQjk4C4LmJsA1SW4COH0+OZWE8P51vkWo7yOcM0E5Q5bMkaeha4bT8qhmjY8/8HyLMxC6eRpH6AgdoSN0hI7QEV6EcEhxCzOhbjQyoyP2WQMGXgEdeesaHXk3E0IdUm8ibNao4SoowmvKt4BQQVO+hTDK1BybuMwKKRe3uCihm8VwhI7QETpCR+gIHaEj/HcJ/we5gWsiaj31dgAAAABJRU5ErkJggg==);
+  background-size: 25px, 30px;
+  background-repeat: no-repeat, no-repeat;
+  background-radius: 8px, 8px;
+  background-position: 10px, 535px;
+}
+
+input {
+    position: relative;
+    grid-column: 2;
+    grid-row: 1;
+    top: 310px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    height: 25px;
+    width: 550px;
+    border: 1px solid #ddd;
+    outline: none;
+    border-radius:25px;
+    text-indent: 35px;
+}
+
+input:hover{
+  box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0.5px 1px 0.5px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0.5px 1px 0.5px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;https://fonts.googleapis.com/css?family=Solway&display=swap
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+html,body, .container {
+    height:100%;
+    min-height:100%;
+    max-height:100%;
+    margin: 0;
+  }
+
+.magnify { 
+  width:65px;
+  height:35px
+}
+
+.button1 {   
+  position: relative;
+  grid-column: 2;
+  grid-row: 1;
+  top: 335px;
+  left:150px;
+  padding: 5px 10px 10px 5px;
+  margin: 2px 2px 2px 2px;
+  border-radius: 4px;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  border-widthL 1px;
+}
+
+.button1:hover {
+  border-color: black;
+}
+
+.button2:hover {
+  border-color: black;
+}
+
+.button2{
+  position: relative;
+  grid-column: 2;
+  grid-row: 1;
+  top: 335px;
+  left:200px;
+  padding: 5px 10px 10px 5px;
+  margin: 2px 2px 2px 2px;
+  border-radius: 4px;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
+ul > li {
+  display: inline;
+}
+
+.about .store {
+    
+}
+
+.img {
+  float:right;
+  padding-right: 20px;
+  font-family: 'Solway', serif; 
+}
+
+.mail {
+  float: right;
+  padding-right: 20px;
+  font-family: 'Solway', serif;
+}
+
+.store {
+  padding: 20px;
+  font-family: 'Solway', serif;
+} 
+.about {
+  font-family: 'Solway', serif;
+}
+
+.footer{
+  grid-column: 1/4;
+  grid-row: 3;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  background-color: red;
+}
